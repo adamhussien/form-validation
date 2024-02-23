@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(
+        90deg,
+        #7a1eaf 0%,
+        #72d4ba 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   height: 100vh;
+    }
+  
+
+.conatiner{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: #fff;
+    padding: 2rem 4rem;
+    border-radius: .6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.form h1 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+.lab1 {
+    display: flex;
+    flex-direction: column;
+}
+.lab1 input {
+   padding: 1rem 2rem;
+   margin: 1rem;
+   border-radius: .4rem;
+   outline: none;
+   border-bottom: 1px solid #00000044;
+ 
+}
+.conatiner, .btn {
+    border: none;
+    width: 80%;
+   border-radius: 2rem ;
+   margin: 1.7em;
+   padding: 1rem;
+   font-size: 1rem;
+   background-color:#000000b8 ;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+.btn:hover{
+    background-color: #7a1eaf;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.log input{
+    text-align: start;
+    text-transform: capitalize;
+}
+.log span{
+text-transform: capitalize;
+font-size: 1.1rem;
+font-weight: 600;
+color: #000000be;
+}
+.log a{
+text-decoration: none;
+color: #8CB9BD ;
+text-transform: capitalize;
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+
+.errormessage {
+   font-size: 1rem;
+    margin: .4rem;
+  font-weight: 500;
+  
+}
+
+.error {
+border: 1px solid red;
+}
+.success{
+    border: 1px solid #2D9596;
+}
